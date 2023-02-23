@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD CONTACTOS</title>
+    <link rel="shortcut icon" href="assets/img/udtem.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="text-center">
+            <img src="assets/img/udtem.png" class="mt-5" width="150px" alt="">
+            <h3>REGISTRO SISTEMA</h3>
+            <form id="formregistrar">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">nombre</label>
+                    <input type="varchar" class="form-control" id="nombre" placeholder="">
+                  </div>
+                  <div class="mb-3">
+                    <label for="apellidos" class="form-label">apellidos</label>
+                    <input type="varchar" class="form-control" id="apellidos" placeholder="">
+                  </div>
+                  <div class="mb-3">
+                    <label for="fecha" class="form-label">fecha</label>
+                    <input type="date" class="form-control" id="fecha" placeholder="">
+                  </div>
+                  <div class="mb-3">
+                    <label for="nss" class="form-label">nss</label>
+                    <input type="number" class="form-control" id="nss" placeholder="">
+                  </div>
+                  <div class="mb-3">
+                    <label for="password" class="form-label">password</label>
+                    <input type="password" class="form-control" id="password" placeholder="******">
+                  </div>
+                  <div class="mb-3">
+                    <label for="carrera" class="form-label">carrera</label>
+                    <input type="varchar" class="form-control" id="carrera" placeholder="">
+                  </div>
+                  <div class="mb-3">
+                    <label for="generacion" class="form-label">generacion</label>
+                    <input type="number" class="form-control" id="generacion" placeholder="">
+                  </div>
+                  <div class="mb-3">
+                    <label for="grupo" class="form-label">grupo</label>
+                    <input type="number" class="form-control" id="grupo" placeholder="">
+                  </div>
+                  <div class="mb-3">
+                    <label for="aula" class="form-label">aula</label>
+                    <input type="aula" class="form-control" id="aula" placeholder="">
+                  </div>
+                  <div class="mb-3">
+                    <input type="button" class="btn btn-danger form-control" onclick="registrarUsuario()" value="Registrar">
+                  </div>
+                  <div class="mb-3">
+                    <a href="index.html" class="btn btn-danger form-control">Iniciar sesion</a>
+                  </div>
+
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="assets/js/appLogin.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/sweetalert2.all.min.js"></script>
+</body>
+</html>

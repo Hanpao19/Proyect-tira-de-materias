@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD CONTACTOS</title>
+    <link rel="shortcut icon" href="assets/img/udtem.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="text-center">
+            <img src="assets/img/udtem.png" class="mt-5" width="150px" alt="">
+            <h3>LOGIN SISTEMA</h3>
+            <form id="formIniciar">
+                <div class="mb-3">
+                    <label for="matricula" class="form-label">Matricula</label>
+                    <input type="number" class="form-control" id="matricula" placeholder="123456789">
+                  </div>
+                  <div class="mb-3">
+                    <label for="password" class="form-label">password</label>
+                    <input type="password" class="form-control" id="password" placeholder="********">
+                  </div>
+                  <div class="mb-3">
+                    <input type="button" class="btn btn-danger form-control" onclick="loginUsuario()" value="Iniciar sesion">
+                  </div>
+                  <div class="mb-3">
+                    <a href="registrar.html" class="btn btn-danger form-control">Registrar</a>
+                  </div>
+
+            </form>
+        </div>
+    </div>
+    
+
+    <script src="assets/js/appLogin.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/sweetalert2.all.min.js"></script>
+</body>
+</html>
